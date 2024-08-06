@@ -10,9 +10,9 @@ from _2DOF_Pytorch_test.env import ArmEnv
 # from rl import DDPG
 from _2DOF_Pytorch_test.rl_torch import DDPG
 
-MAX_EPISODES = 200
-MAX_EP_STEPS = 200
-ON_TRAIN = 0 #True
+MAX_EPISODES = 900
+MAX_EP_STEPS = 300
+ON_TRAIN = 1 #True
 
 # set env
 env = ArmEnv()
